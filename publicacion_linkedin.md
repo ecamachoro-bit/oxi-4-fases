@@ -20,8 +20,10 @@ Lo que muestra el tablero:
 🔹 Con el nuevo Reglamento (D.S. N° 038-2026-EF, vigente desde el 14/03/2026), OxI ya no es solo obras: también financia servicios de salud, educación y saneamiento, planes territoriales y viviendas rurales.
 🔹 Los certificados pueden pagar hasta el 80% de 7 impuestos, y el expediente técnico puede hacerse en paralelo a la obra, con BIM.
 
-📊 Tablero interactivo: [ENLACE AL TABLERO]
-📥 Descarga los 61 modelos (Word y Excel), separados por ruta: [ENLACE AL TABLERO]#proceso
+📊 Tablero interactivo: https://ecamachoro-bit.github.io/oxi-4-fases/
+📥 Descarga los modelos (Word y Excel):
+• Ruta regular, 38 modelos: https://ecamachoro-bit.github.io/oxi-4-fases/web/descargas/oxi_ruta_regular_RD005-2024.zip
+• Ruta de emergencia 2026, 23 modelos: https://ecamachoro-bit.github.io/oxi-4-fases/web/descargas/oxi_ruta_emergencia_RD004-2026.zip
 
 Herramientas: Python (requests, python-docx, pypdf, openpyxl, pandas, selenium), HTML/CSS/JavaScript y FFmpeg.
 Proyecto del curso Python intermedio, QLAB PUCP.

@@ -1,6 +1,6 @@
 # Obras por Impuestos en 4 fases (actualizado a 2026)
 
-Tablero interactivo que simplifica el proceso de **Obras por Impuestos (OxI)** en las 4 fases que usa el MEF: priorización, actos previos, proceso de selección y ejecución. Tiene dos rutas:
+[Ver el tablero](https://ecamachoro-bit.github.io/oxi-4-fases/) · Tablero interactivo que simplifica el proceso de **Obras por Impuestos (OxI)** en las 4 fases que usa el MEF: priorización, actos previos, proceso de selección y ejecución. Tiene dos rutas:
 
 | Ruta | Norma | Modelos | Elegir a la empresa* |
 |---|---|---|---|
