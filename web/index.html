@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Obras por Impuestos en 4 fases · actualizado 2026</title>
+<meta name="description" content="El proceso de Obras por Impuestos simplificado en 4 fases, actualizado con el Reglamento 2026 y la ruta de emergencia por El Niño. Descarga los 61 modelos del MEF.">
+<meta property="og:title" content="Obras por Impuestos en 4 fases (actualizado 2026)">
+<meta property="og:description" content="Ruta regular y ruta de emergencia El Niño 2026: fases, plazos, novedades y los 61 modelos del MEF para descargar.">
+<link rel="stylesheet" href="assets/estilo.css">
+<script src="data/proceso.js"></script>
+</head>
+<body>
+<div class="viz-root">
+
+<header class="portada">
+  <p class="antetitulo">Obras por Impuestos · Ley N° 29230 · actualizado a noviembre de 2026</p>
+  <h1>Obras por Impuestos en 4 fases</h1>
+  <p class="contexto">Una empresa financia y ejecuta una obra o un servicio público. El Estado le devuelve la inversión con un certificado (CIPRL o CIPGN) que la empresa usa para pagar impuestos. Aquí está el proceso en las 4 fases que usa el MEF, con los modelos de documentos de cada una y los cambios de 2026.</p>
+  <div class="descargas">
+    <a class="boton principal" id="zip-regular" href="#" download>⬇ Ruta regular: 39 documentos (ZIP)</a>
+    <a class="boton principal naranja" id="zip-emergencia" href="#" download>⬇ Ruta de emergencia 2026: 24 documentos (ZIP)</a>
+    <a class="boton" href="https://sites.google.com/vivienda.gob.pe/mvcs-oxi/documentos-oxi-estandarizados" target="_blank" rel="noopener">Google Drive (MVCS)</a>
+    <a class="boton" href="https://www.gob.pe/institucion/mef/normas-legales/8563340-004-2026-ef-68-01" target="_blank" rel="noopener">gob.pe: RD 004-2026</a>
+  </div>
+</header>
+
+<section class="kpis" aria-label="Cifras clave">
+  <div class="kpi"><span class="kpi-et">Fases</span><span class="kpi-val">4</span><span class="kpi-sub">priorizar, preparar, elegir, ejecutar</span></div>
+  <div class="kpi"><span class="kpi-et">Modelos del MEF</span><span class="kpi-val">61</span><span class="kpi-sub">38 de la ruta regular + 23 de emergencia</span></div>
+  <div class="kpi destacado"><span class="kpi-et">Elegir a la empresa</span><span class="kpi-val">42 → 14</span><span class="kpi-sub">días hábiles: ruta regular vs. emergencia</span></div>
+  <div class="kpi"><span class="kpi-et">Nuevo Reglamento</span><span class="kpi-val kpi-txt">14/03/2026</span><span class="kpi-sub">D.S. N° 038-2026-EF</span></div>
+</section>
+
+<section id="proceso">
+  <div class="cabecera-seccion">
+    <h2>El proceso</h2>
+    <div class="segmentos" role="group" aria-label="Ruta">
+      <button type="button" data-ruta="regular" aria-pressed="true">Ruta regular</button>
+      <button type="button" data-ruta="emergencia" aria-pressed="false">Ruta de emergencia · El Niño 2026</button>
+    </div>
+  </div>
+  <p class="ayuda" id="ayuda-ruta"></p>
+  <ol class="fases" id="fases"></ol>
+  <article class="detalle" id="detalle" aria-live="polite"></article>
+</section>
+
+<section id="comparacion">
+  <h2>¿Cuánto se demora en elegir a la empresa?</h2>
+  <p class="ayuda">Plazos máximos en días hábiles, desde la convocatoria o la invitación hasta que la empresa presenta los requisitos para firmar el convenio. Pasa el cursor por cada tramo.</p>
+  <div class="tarjeta"><div id="g-comparacion" class="grafico"></div></div>
+  <p class="nota">Ruta regular: calendario del Modelo de Bases de la RD N° 005-2024-EF/68.01. Ruta de emergencia: D.U. N° 010-2026, citado en los modelos de la RD N° 004-2026-EF/68.01. En la ruta de emergencia, además, no hay informe previo de la Contraloría y la lista de priorización se aprueba en 3 días hábiles en lugar de 30.</p>
+</section>
+
+<section id="novedades">
+  <h2>¿Qué cambió en 2026?</h2>
+  <ol class="linea-tiempo" id="linea-tiempo"></ol>
+  <div class="cambios" id="cambios"></div>
+  <p class="aviso"><b>Ojo:</b> los 38 modelos de la ruta regular se aprobaron en 2024, con el Reglamento anterior (D.S. N° 210-2022-EF). El MEF los sigue publicando y la entidad puede adecuarlos, pero hay que contrastarlos con el Reglamento 2026. Los 23 modelos de emergencia ya citan el nuevo Reglamento.</p>
+</section>
+
+<section id="catalogo">
+  <h2>Todos los documentos</h2>
+  <div class="filtros" role="region" aria-label="Filtros">
+    <label>Ruta <select id="f-juego"><option value="">Ambas</option><option value="regular">Regular (RD 005-2024)</option><option value="emergencia">Emergencia (RD 004-2026)</option></select></label>
+    <label>Fase <select id="f-fase"><option value="">Todas</option></select></label>
+    <label>Quién lo elabora <select id="f-elabora"><option value="">Todos</option></select></label>
+    <label class="ancho">Buscar <input id="f-texto" type="search" placeholder="convenio, CIPRL, servicios…" autocomplete="off"></label>
+    <button id="f-limpiar" type="button">Quitar filtros</button>
+  </div>
+  <p class="resumen-filtro" id="resumen-filtro" aria-live="polite"></p>
+  <div class="tabla-envoltura">
+    <table class="tabla" id="tabla">
+      <thead><tr><th>Ruta</th><th>N°</th><th>Documento</th><th>Fase</th><th>Elabora</th><th>Para qué sirve</th><th>Formato</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="metodo" class="metodo">
+  <h2>Metodología y fuentes</h2>
+  <ul>
+    <li><b>Fases:</b> son las 4 que usa el MEF (DGPPIP) en su presentación <i>Obras por Impuestos: información general</i>. Cada modelo se ubicó en su fase según su contenido.</li>
+    <li><b>Ruta regular:</b> RD N° 005-2024-EF/68.01 (<i>El Peruano</i>, 21/12/2024), con 38 modelos. Se descargaron de la copia oficial del Ministerio de Vivienda en Google Drive, porque la web del MEF bloquea la descarga automática.</li>
+    <li><b>Ruta de emergencia:</b> RD N° 004-2026-EF/68.01 (<i>El Peruano</i>, 06/09/2026), con 23 modelos, descargados de gob.pe. Aplica a los procedimientos iniciados con el D.U. N° 010-2026.</li>
+    <li><b>Novedades 2026:</b> Ley N° 32460, D.S. N° 038-2026-EF y resúmenes de ProInversión, Cuatrecasas y AFIN. Verifica los artículos en el texto oficial antes de aplicarlos.</li>
+    <li><b>Herramientas:</b> Python (requests, python-docx, pypdf, openpyxl, pandas, selenium) y HTML/CSS/JavaScript. El tablero simplifica el proceso: no reemplaza la Ley, el Reglamento ni los modelos.</li>
+  </ul>
+  <p class="firma">Elaborado por Eliana Camacho Cárdenas · Python intermedio, QLAB PUCP · noviembre 2026</p>
+</section>
+
+<div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

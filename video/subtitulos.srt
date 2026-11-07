@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:04,450
+El proceso de Obras por Impuestos, simplificado en 4 fases y actualizado a 2026.
+
+2
+00:00:04,500 --> 00:00:10,450
+Una empresa adelanta la obra o el servicio y recupera lo invertido al pagar sus impuestos.
+
+3
+00:00:10,500 --> 00:00:15,950
+Fase 1: la entidad decide qué obra o servicio hará y asegura los recursos.
+
+4
+00:00:16,000 --> 00:00:21,450
+Fase 2: se preparan las bases y los informes. En emergencia no se pide el informe previo de la Contraloría.
+
+5
+00:00:21,500 --> 00:00:26,950
+Fase 3: se elige a la empresa. En emergencia, por invitación y contratación directa.
+
+6
+00:00:27,000 --> 00:00:32,450
+Fase 4: se firma el convenio, se ejecuta, se da conformidad y el MEF devuelve la inversión.
+
+7
+00:00:32,500 --> 00:00:38,950
+En 2026 hay nuevo Reglamento y una ruta de emergencia por El Niño, con 23 modelos nuevos.
+
+8
+00:00:39,000 --> 00:00:45,450
+OxI ya no es solo obras: también financia servicios, planes territoriales y viviendas rurales.
+
+9
+00:00:45,500 --> 00:00:52,950
+Elegir a la empresa toma hasta 42 días hábiles en la ruta regular y 14 en la de emergencia, que usa invitación directa.
+
+10
+00:00:53,000 --> 00:00:58,950
+En el tablero interactivo eliges la ruta y la fase, y ves los documentos de cada una.
+
+11
+00:00:59,000 --> 00:01:04,450
+Con un clic cambias a la ruta de emergencia por El Niño 2026.
+
+12
+00:01:04,500 --> 00:01:09,950
+El catálogo reúne los 61 modelos, con filtros y enlace de descarga.
+
+13
+00:01:10,000 --> 00:01:14,950
+El enlace al tablero y las descargas están en la publicación.

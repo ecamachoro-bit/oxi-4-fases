@@ -1,0 +1,8 @@
+pandas
+requests
+python-docx
+pypdf
+openpyxl
+pywin32
+selenium
+pillow
